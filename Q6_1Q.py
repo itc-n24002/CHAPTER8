@@ -1,9 +1,4 @@
-functions = [sum, min, max]
+str_num_list = map(lambda x: "{:04}".format(x), range(1, 8))
+str_num_list
+print(list(str_num_list))
 
-numbers = range(1, 11)
-list(numbers)
-
-functions = [sum, min, max]
-number_list = range(1, 11)
-for func in functions:
-    print("Functon: {}, Result: {}".format(func.__name__, func(number_list)))
